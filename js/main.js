@@ -13,6 +13,15 @@ var app = new Vue (
             message: "Hello Vue!",
             miaClasse: "red",
             immaggine: "https://traterraecieloblog.files.wordpress.com/2020/06/sudato.jpg"
+        },
+
+        methods: {
+
+            changeColor: function() {
+    
+                    this.miaClasse = "blue"
+    
+                }
         }
     }
 );
